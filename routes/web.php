@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/inicio', function (){
+Route::get('/', function (){
     return view('template.index');
 })->name('inicio');
